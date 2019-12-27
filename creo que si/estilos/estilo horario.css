@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset ="UTF-8">
+		<script>
+        	function fechaActual() {
+				var hoy = new Date();
+				var h= hoy.getHours();
+				var m= hoy.getMinutes();
+				document.getElementById('hora').innerHTML =h+":"+m;
+				setInterval(fechaActual, 1000);
+            }
+        </script>
+		<style>
+			.facil{
+				background-color: green;
+				text-align:center;
+			}
+			.bien{
+				background-color: #66FFFF;
+				text-align:center;
+			}
+			.medio{
+				background-color: #FFFF00;
+				text-align:center;
+			}	
+			.dificil{
+				background-color: #FF0000;
+				text-align:center;
+			}				
+			.dias{
+				background-color: silver;
+				text-align:center;
+			}						
+			.primerahora{
+				if(fechaActual>=8:30 && fechaActual<=9:20){
+					background-color:#00bbff;
+					color:white;
+					text-align:center;
+				}else{
+					background-color: #666666;
+					text-align:center;
+					color: white;
+				}
+			}			
+			.segundahora{
+				if(fechaActual>=9:25 && fechaActual<=10:15){
+					background-color: #00bbff;
+					color:white;
+					text-align:center;
+				}else{
+					background-color: #666666;
+					text-align:center;
+					color: white;
+				}
+			}
+			.tercerahora{
+				if(fechaActual>=10:20 && fechaActual<=11:10){
+					background-color:#00bbff;
+					color:white;
+					text-align:center;
+				}else{
+					background-color: #666666;
+					text-align:center;
+					color: white;
+				}
+			}
+			.recreo{
+				if(fechaActual>=11:10 && fechaActual<=11:40){
+					background-color:#00bbff;
+					color:white;
+					text-align:center;
+				}else{
+					background-color: #666666;
+					text-align:center;
+					color: white;
+				}
+			}
+			.cuartahora{
+				if(fechaActual>=11:40 && fechaActual<=12:30){
+					background-color:#00bbff;
+					color:white;
+					text-align:center;
+				}else{
+					background-color: #666666;
+					text-align:center;
+					color: white;
+				}
+			}
+			.quintahora{
+				if(fechaActual>=12:35 && fechaActual<=13:25){
+					background-color:#00bbff;
+					color:white;
+					text-align:center;
+				}else{
+					background-color: #666666;
+					text-align:center;
+					color: white;
+				}
+			}
+			.sextahora{
+				if(fechaActual>=13:30 && fechaActual<=14:20){
+					background-color:#00bbff;
+					color:white;
+					text-align:center;
+				}else{
+					background-color: #666666;
+					text-align:center;
+					color: white;
+				}
+			}
+			.e{
+				background-color: #000000;
+				text-align:center;
+				color: white;
+			}			
+			table{
+				margin-left: auto px;
+				margin-right: auto px;
+				margin-top: auto ;
+			}
+		</style>
+    </head>
+	
+	<body>
+	</body>
+	
+</html> 
